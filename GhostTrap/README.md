@@ -81,9 +81,9 @@ dumps/
 
 ## License
 
-MIT (or specify your own)
+MIT
 
 ---
 
 **Author:**  
-Your Name/Nickname
+Your Adrian Jędrocha
