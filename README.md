@@ -30,8 +30,7 @@ A PowerShell tool to monitor and alert on suspicious `dllhost.exe` activity, hel
 ---
 
 ### 🔸 [GhostTrap](./GhostTrap)
-A tool for advanced detection, trapping, or analysis of suspicious processes (Windows rootkits, malware, etc.).  
-*(Uzupełnij ten opis jeśli chcesz podać szczegóły działania GhostTrap!)*
+A tool for advanced detection, trapping, or analysis of suspicious processes (Windows rootkits, malware, etc.).
 
 ➡️ [Go to GhostTrap](./GhostTrap)
 
@@ -40,6 +39,12 @@ A tool for advanced detection, trapping, or analysis of suspicious processes (Wi
 ## 📌 Coming soon:
 - **ReconX** – automated recon tool for footprinting and target profiling
 - **Malware-Analysis** – examples of memory dumps and script-based forensic analysis
+
+---
+
+## 👤 About Me
+
+I’m Adrian Jedrocha, an offensive security enthusiast focusing on Windows internals, malware analysis, and real-world threat detection. I thrive on building practical tools and automations for red teaming, incident response, and digital forensics. Always learning, always hacking.
 
 ---
 
