@@ -1,8 +1,8 @@
 # 🛡️ Adrian Jedrocha – Cyber Offensive Toolkit
 
-A collection of personal cybersecurity tools and scripts built for offensive operations – from real-time process monitoring to memory analysis and recon automation.
+A collection of personal cybersecurity tools and scripts built for offensive operations – from real-time process monitoring and lightweight automation, to advanced memory analysis and complex detection traps.
 
-This toolkit is built with a hands-on mindset: **minimal, fast, and functional.** It’s meant for analysts, red teamers, and threat hunters who prefer code that just works.
+This toolkit blends **minimal, fast, and functional** scripts with more advanced solutions. It’s designed for analysts, red teamers, and threat hunters who value both efficiency and deep technical capability.
 
 ---
 
