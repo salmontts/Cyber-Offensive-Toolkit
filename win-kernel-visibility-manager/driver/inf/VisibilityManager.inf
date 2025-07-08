@@ -1,0 +1,41 @@
+; VisibilityManager installation information file
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=System
+ClassGuid={4D36E97D-E325-11CE-BFC1-08002BE10318}
+Provider=%ManufacturerName%
+DriverVer=01/01/2023,1.0.0.0
+
+[Manufacturer]
+%ManufacturerName%=DeviceList
+
+[DeviceList]
+%DeviceDesc%=DriverInstall, ROOT\VisibilityManager
+
+[DriverInstall]
+CopyFiles=DriverCopyFiles
+AddReg=DriverAddReg
+
+[DriverCopyFiles]
+VisibilityManager.sys
+
+[DriverAddReg]
+HKLM,"SYSTEM\CurrentControlSet\Services\VisibilityManager","Type",0x00010001,1
+HKLM,"SYSTEM\CurrentControlSet\Services\VisibilityManager","Start",0x00010001,3
+HKLM,"SYSTEM\CurrentControlSet\Services\VisibilityManager","ErrorControl",0x00010001,1
+HKLM,"SYSTEM\CurrentControlSet\Services\VisibilityManager","ImagePath",0x00020000,"\SystemRoot\System32\drivers\VisibilityManager.sys"
+HKLM,"SYSTEM\CurrentControlSet\Services\VisibilityManager","DisplayName",0x00020000,%DeviceDesc%
+
+[DestinationDirs]
+DriverCopyFiles=12
+
+[Service]
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%12%\VisibilityManager.sys
+
+[Strings]
+ManufacturerName="YourManufacturer"
+DeviceDesc="Visibility Manager Driver"
